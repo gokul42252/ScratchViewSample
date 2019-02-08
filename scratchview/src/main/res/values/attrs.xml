@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScratchPad">
+        <attr name="fontName" format="string" />
+        <attr name="drawableLeftCompat" format="reference" />
+        <attr name="drawableRightCompat" format="reference" />
+        <attr name="drawableTopCompat" format="reference" />
+        <attr name="drawableBottomCompat" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="EraseView">
+        <attr name="iwidth" format="dimension" />
+        <attr name="iheight" format="dimension" />
+    </declare-styleable>
+</resources>
