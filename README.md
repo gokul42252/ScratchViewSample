@@ -8,36 +8,36 @@ Android widget for scratch and win view in andoird.
 gradle
 ```gradle
 allprojects {
-		repositories {
+	       repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}
+	    }
 ```
 maven
 ```maven
 <repositories>
-		<repository>
-		    <id>jitpack.io</id>
-		    <url>https://jitpack.io</url>
-		</repository>
-	</repositories>
+	<repository>
+		<id>jitpack.io</id>
+		<url>https://jitpack.io</url>
+	</repository>
+</repositories>
 ```
 ## Step 2. Add the dependency
 
 gradle 
 ```gradle
 dependencies {
-	        implementation 'com.github.gokul42252:ScratchViewSample:Tag'
-	}
+	implementation 'com.github.gokul42252:ScratchViewSample:Tag'
+	     }
 ```
 maven
 ```maven
 <dependency>
-	    <groupId>com.github.gokul42252</groupId>
-	    <artifactId>ScratchViewSample</artifactId>
-	    <version>Tag</version>
-	</dependency>
+	<groupId>com.github.gokul42252</groupId>
+	<artifactId>ScratchViewSample</artifactId>
+	<version>Tag</version>
+</dependency>
 ```
 ## Step 3. Implementing in project
 ### Add Activity.xml
